@@ -54,11 +54,20 @@ grep    【查询文本中的内容】
 find    【查找文件或文件夹】  
 find 要查找的目录 -name 要查找的文件夹或文件名  
 
-\>       【管道定向命令】   
+\>      【管道定向命令】   
 ls -l \> test.txt  将一个目录的详细信息保存到test.txt这个文本文件中   
 \>        覆盖  
 \>\>       追加   
 \<        反过来覆盖   
 
 
+如何在linux中添加组  
+groupadd + 组名    
+useradd -g 组名 用户名 【新建一个用户放到特定的组中】  
+
+查看linux中所有用户组  
+cat /etc/group  
+
+查看linux中所有用户信息  
+cat /etc/passwd  
 
