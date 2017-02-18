@@ -71,3 +71,6 @@ cat /etc/group
 查看linux中所有用户信息  
 cat /etc/passwd  
 
+-rw-r--r--的含义：  
+--|--|--|--
+'-'|'rw-'|'r--'|'r--'
