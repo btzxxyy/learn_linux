@@ -75,3 +75,9 @@ cat /etc/passwd
 -|rw-|r--|r--  
 ---|----|----|---  
 文件类型|文件所有者对文件的权限|文件所在组对文件的权限|其他组的用户对文件的权限  
+
+dog | bird | cat
+----|------|----
+foo | foo  | foo
+bar | bar  | bar
+baz | baz  | baz
